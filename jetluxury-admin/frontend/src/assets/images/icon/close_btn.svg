@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.406 30.406">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="close_btn" data-name="close btn" transform="translate(-1830 -179)">
+        <rect id="사각형_20" width="3" height="40" class="cls-1" data-name="사각형 20" rx="1.5" transform="rotate(-45 1133.632 -2118.445)"/>
+        <rect id="사각형_21" width="3" height="40" class="cls-1" data-name="사각형 21" rx="1.5" transform="rotate(45 713.07 2332.647)"/>
+    </g>
+</svg>

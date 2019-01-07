@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#00c42d}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="네이버_on" data-name="네이버 on" transform="translate(104 -457)">
+        <path id="사각형_235" d="M0 0h26v26H0z" class="cls-1" data-name="사각형 235" transform="translate(-104 457)"/>
+        <path id="네이버로고" d="M8.116 0v5.669L4.2 0H0v11.256h4.2V5.587l3.874 5.669h4.242V0z" class="cls-2" transform="translate(-97 464)"/>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+    <defs>
+        <style>
+            .cls-1{fill:#444857}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="chk_active" transform="translate(-480 -325)">
+        <circle id="dark_circle" cx="9" cy="9" r="9" class="cls-1" data-name="dark circle" transform="translate(480 325)"/>
+        <circle id="active_circle" cx="3" cy="3" r="3" class="cls-2" data-name="active circle" transform="translate(486 331)"/>
+    </g>
+</svg>

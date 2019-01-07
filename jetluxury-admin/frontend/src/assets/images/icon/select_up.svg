@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.664 6.717">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <g id="arrow" class="cls-1" transform="translate(823.018 512.182) rotate(180)">
+    <rect id="line" class="cls-2" width="8" height="1.5" rx="0.75" transform="translate(812.414 505.464) rotate(45)"/>
+    <rect id="line-2" data-name="line" class="cls-2" width="8" height="1.5" rx="0.75" transform="translate(816.3 511.121) rotate(-45)"/>
+  </g>
+</svg>

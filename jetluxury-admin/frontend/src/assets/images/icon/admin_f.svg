@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#ccc}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="카카오_" data-name="카카오" transform="translate(74 -457)">
+        <path id="사각형_236" d="M0 0h26v26H0z" class="cls-1" data-name="사각형 236" transform="translate(-74 457)"/>
+        <path id="카카오톡_로고" d="M28.958 24.3c-4.018 0-7.258 2.7-7.258 6.027a5.863 5.863 0 0 0 3.448 5.127c-.156.6-.544 2.155-.622 2.482-.1.409.156.409.311.3.13-.082 2-1.418 2.8-1.991a10.806 10.806 0 0 0 1.348.109c4.018 0 7.258-2.7 7.258-6.027S32.95 24.3 28.958 24.3z" class="cls-2" data-name="카카오톡 로고" transform="translate(-89.7 438.7)"/>
+    </g>
+</svg>

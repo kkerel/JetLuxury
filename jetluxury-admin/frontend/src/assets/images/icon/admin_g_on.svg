@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#ea4335}.cls-2{fill:#fff;stroke:#ccc}.cls-3{clip-path:url(#clip-path)}.cls-4{clip-path:url(#clip-path-2)}.cls-5{clip-path:url(#clip-path-3)}.cls-6{clip-path:url(#clip-path-4)}.cls-7{stroke:none}.cls-8{fill:none}
+        </style>
+        <clipPath id="clip-path">
+            <path id="패스_648" d="M283.657 246.039a8.087 8.087 0 0 0-.127-1.439h-6.63v2.724h3.788a3.232 3.232 0 0 1-1.4 2.123v1.767h2.273a6.872 6.872 0 0 0 2.1-5.176zm0 0" class="cls-1" data-name="패스 648" transform="translate(-276.9 -244.6)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="패스_649" d="M124.091 316.4a6.709 6.709 0 0 0 4.658-1.7l-2.273-1.767a4.246 4.246 0 0 1-6.322-2.23H117.8v1.823a7.036 7.036 0 0 0 6.29 3.879zm0 0" class="cls-1" data-name="패스 649" transform="translate(-117.8 -310.7)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="패스_650" d="M102 201.5a4.144 4.144 0 0 1 0-2.673V197h-2.353a7.051 7.051 0 0 0 0 6.318L102 201.5zm0 0" class="cls-1" data-name="패스 650" transform="translate(-98.9 -197)"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="패스_651" d="M124.09 101.6a3.8 3.8 0 0 1 2.689 1.052l2.02-2.02a6.766 6.766 0 0 0-4.709-1.832 7.036 7.036 0 0 0-6.29 3.879l2.353 1.823a4.194 4.194 0 0 1 3.938-2.9zm0 0" class="cls-1" data-name="패스 651" transform="translate(-117.8 -98.8)"/>
+        </clipPath>
+    </defs>
+    <g id="구글_on" data-name="구글 on" transform="translate(44 -457)">
+        <g id="사각형_237" class="cls-2" data-name="사각형 237">
+            <path d="M0 0h26v26H0z" class="cls-7" transform="translate(-44 457)"/>
+            <path d="M.5.5h25v25H.5z" class="cls-8" transform="translate(-44 457)"/>
+        </g>
+        <g id="구글_로고" data-name="구글 로고" transform="translate(-38 463)">
+            <g id="그룹_46" data-name="그룹 46" transform="translate(7.038 5.765)">
+                <g id="그룹_45" class="cls-3" data-name="그룹 45">
+                    <path id="XMLID_24_" d="M0 0h14.578v14.431H0z" class="cls-1" transform="translate(-3.91 -3.914)"/>
+                </g>
+            </g>
+            <g id="그룹_48" data-name="그룹 48" transform="translate(.747 8.378)">
+                <g id="그룹_47" class="cls-4" data-name="그룹 47">
+                    <path id="XMLID_21_" d="M0 0h18.769v13.522H0z" class="cls-1" transform="translate(-3.91 -3.91)"/>
+                </g>
+            </g>
+            <g id="그룹_50" data-name="그룹 50" transform="translate(0 3.883)">
+                <g id="그룹_49" class="cls-5" data-name="그룹 49">
+                    <path id="XMLID_18_" d="M0 0h10.92v14.143H0z" class="cls-1" transform="translate(-3.91 -3.91)"/>
+                </g>
+            </g>
+            <g id="그룹_52" data-name="그룹 52" transform="translate(.747)">
+                <g id="그룹_51" class="cls-6" data-name="그룹 51">
+                    <path id="XMLID_15_" d="M0 0h18.82v13.522H0z" class="cls-1" transform="translate(-3.91 -3.906)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

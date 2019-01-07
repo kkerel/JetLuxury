@@ -1,0 +1,132 @@
+html{
+  width:100%;
+  height:100%;
+  font-family:"Noto";
+  color: #333;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+}
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary ,input,button
+{
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,
+img {
+  border:0;
+  margin:0 auto;
+}
+/*
+  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style:normal;
+  font-weight:normal;
+}
+a {
+  color:#333;
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style:none;
+}
+
+caption,
+th {
+  text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size:100%;
+  font-weight:bold;
+}
+q:before,
+q:after {
+  content:'';
+}
+abbr,
+acronym {
+  border:0;
+  font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+  vertical-align:text-top;
+}
+sub {
+  vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+  border:0px;
+  background:none;
+  font-family:inherit;
+  font-size:inherit;
+  font-weight:inherit;
+}
+select{text-indent:10px;}
+/*to enable resizing for IE*/
+input,
+textarea,
+select,
+label{
+  cursor:pointer;
+  outline:none;
+}
+/*because legend doesn't inherit in IE */
+legend {
+  color:#000;
+}
+button {
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+textarea{resize:none;}
+/* 크롬 input 자동완성 css */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus{
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* custom*/
+body{width:100%; height:100%; background:#fafafa;
+  a,div{transition: .3s ease-in-out; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -ms-transition: .3s ease-in-out; -o-transition: .3s ease-in-out;}
+}
+
+/* vue */
+#app{width:100%; height:100%; background:#fafafa;}
+input[type=file]{line-height:15px;}
+.radio_style{
+  input[type="radio"] { display:none; opacity: 0; filter: alpha(opacity=0); width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;}
+  input[type="radio"]:checked + label:before{ background: url(assets/images/icon/radio_on.svg) 0 0 no-repeat;}
+  label:before{content:''; margin:0 5px 0 0; display:inline-block; width:15px; height:15px; background: url(assets/images/icon/radio_off.svg) 0 0 no-repeat; background-size:15px; vertical-align:middle; cursor:pointer;}
+}

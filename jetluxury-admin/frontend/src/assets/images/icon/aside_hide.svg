@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.761 12.108">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff;stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="arrow" transform="rotate(90 159.674 -27.12)">
+        <path id="선_1" d="M0 0l5.347 5.347" class="cls-1" data-name="선 1" transform="translate(187.5 126.5)"/>
+        <path id="선_2" d="M0 0l5.347 5.347" class="cls-1" data-name="선 2" transform="rotate(90 35.847 162.347)"/>
+    </g>
+</svg>

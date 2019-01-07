@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
+    <defs>
+        <style>
+            .cls-1{fill:#1a46bf}.cls-2{fill:#fff;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="페이스북_on" data-name="페이스북 on" transform="translate(14 -457)">
+        <path id="사각형_238" d="M0 0h26v26H0z" class="cls-1" data-name="사각형 238" transform="translate(-14 457)"/>
+        <path id="페이스북로고" d="M85 14.766V8.039h2.3l.328-2.625H85V3.773c0-.738.246-1.313 1.313-1.313h1.395V.082C87.383.082 86.563 0 85.66 0a3.167 3.167 0 0 0-3.36 3.445v1.969H80v2.625h2.3v6.727z" class="cls-2" transform="translate(-85 463)"/>
+    </g>
+</svg>

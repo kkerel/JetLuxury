@@ -1,0 +1,8 @@
+// Sign
+.sign{display: -ms-flexbox; display: flex; height: 100%; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; flex-direction: column;}
+
+/* popup */
+.default{overflow-y:hidden;}
+.popup--table{display:table-cell;}
+.popup--scroll{overflow-y: scroll; height: 100%; scrollbar-face-color: #fff; scrollbar-highlight-color: #fff; scrollbar-3dlight-color: #fff; scrollbar-shadow-color: #fff; scrollbar-darkshadow-color: #fff; scrollbar-track-color: #fff; scrollbar-arrow-color: #fff;}
+.close{cursor:pointer;}

@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Noto";
+  font-style: normal;
+  src: url("assets/fonts/NotoSansCJKkr-Regular.eot") format("Embedded OpenType"),
+  url("assets/fonts/NotoSansCJKkr-Regular.ttf") format("TrueType"),
+  url("assets/fonts/NotoSansCJKkr-Regular.otf") format("opentype"),
+  url("assets/fonts/NotoSansCJKkr-Regular.woff") format("woff"),
+  url("assets/fonts/NotoSansCJKkr-Regular.woff2") format("woff2");
+}
+
+/* style color */
+$white:#fff;
+$black:#000;
+
+$basic-color1:#282c38;
+$basic-color2:#ccc;
+$basic-color3:#333;
+$basic-color3:#444857;
+$basic-color4:#fafafa;
+
+
+$border-gray:#ccc;
+
+
+/* btn color */
+$btn-color1:#444857;
+$btn-color2:#cbae79;
+
+/* font */
+$Noto:'Noto', sans-serif;
+$Work:'Work', sans-serif;
+
+/* style */
+$point:pointer;
+
+@mixin boxSizing() {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+}
+@mixin selectHidden() {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0px;
+}
+@mixin inlineBlock() {
+  display:inline-block;
+  vertical-align:middle;
+  letter-spacing:0px;
+}
+@mixin fontHide() {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+@mixin btn_wrap_01() {
+  width:150px;
+  height:42px;
+  line-height:43px;
+  text-align:center;
+  font-size:18px;
+  cursor:$point;
+}
+@mixin btn_wrap_02() {
+  width:60px;
+  height:30px;
+  line-height:26px;
+  text-align:center;
+  border:1px solid $basic-color3;
+  font-size:15px;
+  font-weight:normal;
+  border-radius:40px;
+  outline:none;
+  cursor:$point;
+}
+
+/* select */
+.select_btn{color:#7c7c7c;
+  .select_contents{position:relative; outline:none;
+    .select{height:70px; line-height:68px; text-indent:30px; font-weight:bold; background:#fff; cursor:$point; color:$basic-color3;
+      p{background:#fff url(assets/images/icon/select_down.svg) center right no-repeat; margin-right:10px; font-size:16px; background-size:13px;}
+      p.arrow_up{background:url(assets/images/icon/select_up.svg) center right no-repeat; background-size:13px;}
+    }
+    .select_view{width:100%; position: absolute; top:70px; background: #f5f5f5; z-index:1; font-size:13px; color:$basic-color3;
+    li{height: 40px; line-height: 40px; cursor: $point; text-indent: 15px;
+        label{ display:block; cursor:$point; }
+        &:hover{background: #282c38; color: #fff;}
+      }
+    }
+  }
+}
+/* select */
+
+/* box shadow */
+.shadow{box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);}
+/* box shadow */
+
+/* btn type */
+.btn_type_01{@include btn_wrap_01; background:$btn-color1; color:$white;} /* delete*/
+.btn-type-01{@include btn_wrap_01; background:$btn-color1; color:$white;}
+.btn_type_02{@include btn_wrap_01; background:$btn-color2; color:$white;}
+.btn-type-02{@include btn_wrap_01; background:$btn-color2; color:$white;}
+.btn_type_03{@include btn_wrap_02; @include inlineBlock;}
+.btn-type-03{@include btn_wrap_02; @include inlineBlock;}
+.btn_type_04{@include btn_wrap_02; @include inlineBlock; color:$white; background:$basic-color3;}
+.btn-type-04{@include btn_wrap_02; @include inlineBlock; color:$white; background:$basic-color3;}
+.btn_type_05{@include btn_wrap_02; color:$white; background:$basic-color3; width:120px;}
+.btn-type-05{@include btn_wrap_02; color:$white; background:$basic-color3; width:120px;}
+
+.mbtn_type_01{width:70px; height:44px; line-height:42px; border:1px solid $basic-color2; text-align:center; @include boxSizing;}
+/* btn type */
+
+/* border type */
+.border__gray{border:1px solid $border-gray;}
+
+/* radiusBtn type */
+.radius_btn_type_01{width:60px; height:30px; line-height:30px; text-align:center;}
+/* radiusBtn type */
+
+/* contents search input & select */
+.box_type_01{width:100%; display:table; margin-top:20px; border-top:1px solid $basic-color2;
+  .box_inner_wrap{width:100%; display:table; border-bottom:1px solid $basic-color2;
+    .box_contents{display:table-cell; vertical-align:middle; background:$basic-color4; @include boxSizing; padding-left:12px; letter-spacing: -5px;
+      > div{margin:12px 0px; @include inlineBlock; margin-right:10px;}
+      .atsign{line-height:44px;}
+    }
+    .box_title{display:table-cell; vertical-align:middle; width:200px; background:$basic-color3; text-align:center; color:#fff; font-size:18px; font-weight:bold;}
+  }
+}
+.box_type_02{width:100%; display:table; margin-top:20px; border-top:1px solid $basic-color2;
+  .box_inner_wrap{width:100%; display:table;
+    .box_contents{min-height:180px; padding:14px; padding-left:214px; background:$basic-color4; border-bottom:1px solid $basic-color2; @include boxSizing;
+      > div{padding:12px 0px; @include inlineBlock;}
+      .atsign{padding:0px 20px;}
+    }
+    .box_title{position:absolute; top:0px; left:0px; width:200px; height:180px; line-height:180px; background:$basic-color3; text-align:center; color:#fff; font-size:18px; font-weight:bold;}
+  }
+}
+.input_type_s{width:230px; height:44px; padding:13px 0; border:1px solid $basic-color2; background:$white; @include boxSizing; text-indent:10px; font-size:14px;}
+.input_type_ss{width:138px; height:44px; line-height:44px; border:1px solid $basic-color2; background:$white; @include boxSizing; text-indent:10px; font-size:14px;}
+.input_type_m{width:262px; height:44px; line-height:44px; padding:13px 0; border:1px solid $basic-color2; background:$white; @include boxSizing; text-indent:10px; font-size:14px;}
+/* contents search input & select */
+
+/* table board type */
+.board_image{
+  img{width:42px; height:42px;}
+}
+.brand_img{
+  img{width:66px; height:37px;}
+}
+table{width:100%; padding:30px;
+  th{height:60px; vertical-align:middle; background:$basic-color3; color:$white; font-weight:bold; text-align:center; font-size:18px; border-right:1px solid $basic-color2;
+    &:last-child{border-right:0px;}
+  }
+  td{height:54px; vertical-align:middle; text-align:center; font-size:14px; border-right:1px solid $basic-color2; border-bottom:1px solid $basic-color2; padding:0px 10px;
+    &:last-child{border-right:0px;}
+    input{text-align:center;
+      &.input_type_01{width:100%; border:1px solid #ccc; text-indent:10px; height:36px;}
+    }
+  }
+}
+
+/* 게시판 검색수 우측 버튼 */
+.board__result{background:#fff; padding:30px; margin-top:30px;
+  &--value{position:relative;
+    .btn_type_01{position:absolute; top:0px; right:0px;}
+    .btn_type_02{position:absolute; top:0px; right:0px;}
+    .sorting{position:absolute; top:0px; right:0px;}
+    .search_result{width:100%; display:table; margin-bottom:30px; padding:10px 0px;
+      div{float:left; letter-spacing: 2px; font-size:18px;
+        span{color:$btn-color2;}
+      }
+    }
+  }
+}
+/* table board type */
+
+/* paging */
+.paging{width:100%; display:table; letter-spacing:-4px; text-align:center;
+  div{@include inlineBlock; padding:0px 7.5px;}
+  ul{@include inlineBlock;
+    li{@include inlineBlock; padding:0px 7.5px; cursor:pointer;}
+  }
+}
+
+/* 이벤트 배너 검색 셀렉트 */
+.event_select{
+  .input_type_s{width:138px;
+    .select_view{width:100%!important;}
+  }
+}
+.term_choice_wrap{width:350px;}
+
+/* chart */
+.chart_status_wrap{width:100%; display:table; margin-top:40px;
+  section{padding:35px 30px; box-sizing:border-box;}
+  .title{font-weight:bold; font-size:20px; margin-bottom:30px;
+    span{padding-right:5px;}
+  }
+  .board_wrap{float:left; width:49%; height:567px; background:#fff;}
+  .graph_wrap{float:right; width:49%; height:567px; background:#fff;}
+}
+
+/* datepicker style */
+.vdp-datepicker{
+  input{height: 44px; border: 1px solid #ccc; background: #fff; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; text-indent: 10px; font-size: 14px;}
+}
+
+/* table scroll */
+.section--action{
+  .scroll__table__wrap{width:1740px;}
+}
+.scroll__table__wrap{width:1540px; overflow-x:scroll;
+  table{width:2100px;}
+}
+@media (max-width: 1680px){
+  .section--action{
+    .scroll__table__wrap{width:1500px;}
+  }
+  .scroll__table__wrap{width:1300px;}
+}
+
+/* 검색어 , 기간선택 select*/
+.select__list{
+  &--type{width:138px; height:44px; background:#fff url(assets/images/icon/select_down.svg) 115px center no-repeat!important; background-size:13px!important; @include selectHidden;}
+}
+
+/* 게시판 select */
+.select__board{padding-right:10px;
+  &--type{width:100%; height:30px; font-size:14px; background:#fff url(assets/images/icon/select_down.svg) right center no-repeat; background-size:13px; @include selectHidden;}
+  /*text-align-last:center;*/
+}
+
+/*게시판 button */
+.btn__board{width:100px; height:30px; font-size:14px;}
+
+/* 게시판 송장번호 스타일 */
+.invoice{letter-spacing:-5px;
+  p,button{height:30px; line-height:28px; display:inline-block; vertical-align:middle; letter-spacing:0px; box-sizing:border-box; font-size:14px;}
+  p{width:100%; margin-right:10px; line-height:30px;}
+  &--modified__btn,&--modified--complete{width:67px;}
+  &--modified{width:100%!important; height:30px;}
+}
